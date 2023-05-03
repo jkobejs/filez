@@ -1,0 +1,21 @@
+[package]
+name = "filez"
+version = "0.0.1"
+authors = ["jkobejs"]
+description = "A simple file system abstraction for Rust"
+repository = "https://github.com/jkobejs/filez"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+
+categories = ["filesystem"]
+
+
+[dependencies]
+async-trait = "0.1.68"
+glob = "0.3.1"
+mockall = "0.11.4"
+tokio = { version = "1.28.0", features = ["fs", "io-util"] }
+
+[dev-dependencies]
+anyhow = "1.0.71"
+tokio = { version = "1.28.0", features = ["full"] }
