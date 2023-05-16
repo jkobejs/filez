@@ -8,7 +8,7 @@ Add the following to your `Cargo.toml` file:
 
 ```toml
 [dependencies]
-filez = { git = "https://github.com/yourusername/filez.git", branch = "main" }
+filez = { git = "https://github.com/jkobejs/filez.git", branch = "master" }
 tokio = { version = "1", features = ["full"] }
 async-trait = "0.1"
 ```
